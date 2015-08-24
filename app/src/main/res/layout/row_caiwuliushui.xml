@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:descendantFocusability="blocksDescendants"
+    android:focusable="false"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:id="@+id/row_gryc_che_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+        <TextView
+            android:id="@+id/row_cwls_txt1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="收入：1000"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/row_cwls_txt2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:drawablePadding="5dp"
+            android:text="充值方式：信用卡"
+            android:textColor="@color/gray_half"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/row_cwls_txt3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:drawablePadding="5dp"
+            android:text="时间：2014-1-23"
+            android:textColor="@color/gray_half"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+
+</RelativeLayout>
