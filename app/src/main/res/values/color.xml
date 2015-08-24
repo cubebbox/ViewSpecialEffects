@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="transparent_half">#50000000</color>
+    <color name="transparent_much">#10000000</color>
+    <color name="transparent_little">#90000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="gray_much">#666666</color>
+    <color name="gray_half">#999999</color>
+    <color name="gray_little">#E0E0E0</color>
+    <color name="gray_line">#9fa0a0</color>
+    <color name="white">#ffffff</color>
+    <color name="white_little">#f0f0f0</color>
+    <color name="white_half">#d0d0d0</color>
+    <color name="black_little">#3c3c3c</color>
+    <color name="black">#000000</color>
+    <color name="red_much">#EA0000</color>
+    <color name="red_half">#FF0000</color>
+    <color name="red_little">#FF2D2D</color>
+    <color name="blue">#00a0e9</color>
+    <color name="green_little">#A6ffA6</color>
+    <color name="green">#53ff53</color>
+    <color name="green_much">#00a600</color>
+    <color name="green_half">#00db00</color>
+    <color name="brown">#a23400</color>
+    <color name="brown_little">#bb3d00</color>
+    <color name="brown_much">#642100</color>
+    <color name="brown_half">#842b00</color>
+    <color name="orange">#f7ab00</color>
+    <color name="bg_glass">#88ffffff</color>
+
+</resources>

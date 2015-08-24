@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- android:interpolator定义了动画播放的速率 -->
+<set xmlns:android = "http://schemas.android.com/apk/res/android"
+    android:interpolator="@android:anim/accelerate_interpolator">
+    <!-- 第三个为时间上的偏移量,执行动画之前等待的时间 -->
+    <alpha 
+        android:fromAlpha="1.0"
+        android:toAlpha="0.0"
+        android:startOffset="500"
+        android:duration="500"
+        />
+    
+</set>

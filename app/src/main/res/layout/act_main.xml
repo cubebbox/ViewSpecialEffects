@@ -1,0 +1,104 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/act_main_parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bg"
+    tools:context=".MainActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/main_b1"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:alpha="0.7"
+                android:onClick="b1"
+                android:text="透明背景退出"
+                android:textColor="@color/black_little"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/main_b2"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:alpha="0.7"
+                android:onClick="b2"
+                android:text="模糊背景退出"
+                android:textColor="@color/black_little"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/main_b3"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:alpha="0.7"
+                android:onClick="b3"
+                android:text="旋转背景退出"
+                android:textColor="@color/black_little"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/main_b4"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:alpha="0.7"
+                android:text="圆形背景退出"
+                android:textColor="@color/black_little"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/main_start_anim"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:alpha="0.7"
+                android:text="开始动画"
+                android:textColor="@color/black_little"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:id="@+id/main_img"
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:src="@mipmap/p4" />
+
+            <Button
+                android:id="@+id/main_b5"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:alpha="0.7"
+                android:text="模糊dialog"
+                android:textColor="@color/black_little"
+                android:textSize="15sp" />
+
+
+
+            <Button
+                android:id="@+id/main_b6"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:alpha="0.7"
+                android:text="背景模糊dialog"
+                android:textColor="@color/black_little"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
